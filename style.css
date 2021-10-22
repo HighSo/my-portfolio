@@ -1,0 +1,109 @@
+.container {
+  background-image: url(flame.gif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layer {
+  background-image: url("Zoom.jpg");
+  background-size: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+  height: 537px;
+}
+.button {
+  border: solid 3px crimson;
+  background-color: yellow;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  border: solid 1px blanchedalmond;
+  background-color: white;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 3vmin;
+}
+.title {
+  text-align: center;
+  background-color: yellow;
+  color: crimson;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  width: 45%;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.profile_txt {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
+
+.syumi {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
+
+.sns {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
+.sns-icon {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.t-icon {
+  list-style-type: none;
+  float: left;
+  padding-right: 20px;
+}
+
+.i-icon {
+  list-style-type: none;
+  float: left;
+}
+.twi {
+  width: 50px;
+  border-radius: 20%;
+}
+
+.ins {
+  width: 50px;
+  border-radius: 20%;
+}
